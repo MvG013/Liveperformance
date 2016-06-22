@@ -18,5 +18,38 @@ namespace Liveperformance.Klassen
         public Klant klant { get; set; }
         public Medewerker medewerker { get; set; }
 
+        public void ToevoegenContract(Huurcontract Contract)
+        {
+
+        }
+
+        public List<Huurcontract> ToonOverzicht()
+        {
+            List<Huurcontract> Contracten = new List<Huurcontract>();
+            return Contracten;
+        }
+
+        public void ToonTemperatuur()
+        {
+
+        }
+
+        public List<Boot> ToonBoten()
+        {
+            List<Boot> Boten = new List<Boot>();
+            return Boten;
+        }
+        public List<Medewerker> ToonMedewerkers()
+        {
+            List<Medewerker> Medewerkers = new List<Medewerker>();
+            return Medewerkers;
+        }
+
+        public List<Artikel> ToonArtikelen()
+        {
+            List<Artikel> Artikelen = new List<Artikel>();
+            return Artikelen;
+        }
+
     }
 }
