@@ -1,0 +1,9 @@
+C:\Users\Marc\Documents\Visual Studio 2015\Projects\Liveperformance\Liveperformance\bin\Debug\Liveperformance.exe.config
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\bin\Debug\Liveperformance.exe.config
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\bin\Debug\Liveperformance.exe
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\bin\Debug\Liveperformance.pdb
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\obj\Debug\Liveperformance.csprojResolveAssemblyReference.cache
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\obj\Debug\Liveperformance.Properties.Resources.resources
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\obj\Debug\Liveperformance.csproj.GenerateResource.Cache
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\obj\Debug\Liveperformance.exe
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\obj\Debug\Liveperformance.pdb
