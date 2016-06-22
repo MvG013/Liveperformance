@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Liveperformance.Klassen
 {
-    class Klant
+    public class Klant
     {
+        public string Naam { get; set; }
+        public string Email { get; set; }
+
+        public Klant(string naam , string email)
+        {
+            Naam = naam;
+            Email = email;
+        }
     }
 }

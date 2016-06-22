@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Liveperformance.Klassen
 {
-    class Medewerker
+    public class Medewerker
     {
+        public int ID { get; set; }
+        public string Naam { get; set; }
+        public int Telefoonnummer { get; set; }
+        public string Email { get; set; }
+
+        public Medewerker(int id , string naam , int telefoonnummer , string email)
+        {
+            ID = id;
+            Naam = naam;
+            Telefoonnummer = telefoonnummer;
+            Email = email;
+        }
     }
 }

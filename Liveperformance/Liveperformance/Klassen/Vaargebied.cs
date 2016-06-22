@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Liveperformance.Klassen
 {
-    class Vaargebied
+    public class Vaargebied
     {
+        public int ID { get; set; }
+        public string Naam { get; set; }
+        public bool Motor { get; set; }
+        public bool Spierkracht { get; set; }
     }
 }
