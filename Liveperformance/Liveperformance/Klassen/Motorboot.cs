@@ -11,10 +11,22 @@ namespace Liveperformance.Klassen
         int Tankinhoud { get; set; }
         int Actieradius { get; set; }
 
-        public Motorboot(int id , string name , decimal price, string type, string beschrijving , bool verhuurd,int tankinhoud , int actieradius) 
-            :base(id,name, price, type , beschrijving ,verhuurd,tankinhoud,actieradius)
+        public Motorboot(int id , string naam, string type, string soort , decimal prijs, int tankinhoud, int actieradius , string beschrijving) 
+            :base(id,naam, type, soort, prijs , beschrijving)
         {
+            ID = id;
+            Naam = naam;
+            Type = type;
+            Soort = soort;
+            Prijs = prijs;
+            Beschrijving = beschrijving;
+            Tankinhoud = tankinhoud;
+            Actieradius = actieradius;
+        }
 
+        public override string ToString()
+        {
+            return ID.ToString() + " " + Naam + " " + Soort;
         }
     }
 }

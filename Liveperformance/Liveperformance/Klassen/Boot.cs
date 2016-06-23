@@ -12,17 +12,17 @@ namespace Liveperformance.Klassen
         public string Naam { get; set; }
         public decimal Prijs { get; set; }
         public string Type { get; set; }
+        public string Soort { get; set; }
         public string Beschrijving { get; set; }
-        public bool Verhuurd { get; set; }
 
-        public Boot(int id , string naam , decimal prijs , string type , string beschrijving , bool verhuurd)
+        public Boot(int id , string naam, string type, string soort,decimal prijs , string beschrijving)
         {
 
         }
 
-        public Boot(int id, string naam, decimal prijs, string type, string beschrijving, bool verhuurd , int tankinhoud , int actieradius)
+        public override string ToString()
         {
-
+            return ID.ToString() + " " + Naam + " " + Soort;
         }
     }
 }

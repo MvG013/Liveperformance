@@ -1,0 +1,10 @@
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\LiveperformanceTests\bin\Debug\LiveperformanceTests.dll
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\LiveperformanceTests\bin\Debug\LiveperformanceTests.pdb
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\LiveperformanceTests\bin\Debug\Liveperformance.exe
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\LiveperformanceTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\LiveperformanceTests\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\LiveperformanceTests\bin\Debug\Liveperformance.pdb
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\LiveperformanceTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\LiveperformanceTests\obj\Debug\LiveperformanceTests.csprojResolveAssemblyReference.cache
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\LiveperformanceTests\obj\Debug\LiveperformanceTests.dll
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\LiveperformanceTests\obj\Debug\LiveperformanceTests.pdb

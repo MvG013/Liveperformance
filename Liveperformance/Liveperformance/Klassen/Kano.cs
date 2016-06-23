@@ -8,10 +8,20 @@ namespace Liveperformance.Klassen
 {
     public class Kano : Boot
     {
-        public Kano(int id, string name, decimal price, string type, string beschrijving, bool verhuurd) 
-            :base(id,name, price, type , beschrijving ,verhuurd)
+        public Kano(int id, string naam, string type, string soort, decimal prijs, string beschrijving) 
+            :base(id, naam, type, soort, prijs, beschrijving)
         {
+            ID = id;
+            Naam = naam;
+            Type = type;
+            Soort = soort;
+            Prijs = prijs;
+            Beschrijving = beschrijving;
+        }
 
+        public override string ToString()
+        {
+            return ID.ToString() + " " + Naam + " " + Soort;
         }
     }
 }

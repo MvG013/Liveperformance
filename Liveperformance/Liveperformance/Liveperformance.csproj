@@ -51,6 +51,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DatabaseKlassen\DBKlant.cs" />
+    <Compile Include="DatabaseKlassen\DBArtikel.cs" />
+    <Compile Include="DatabaseKlassen\DBType.cs" />
+    <Compile Include="DatabaseKlassen\DBSoort.cs" />
+    <Compile Include="DatabaseKlassen\DBBoot.cs" />
+    <Compile Include="DatabaseKlassen\DBHuurcontract.cs" />
+    <Compile Include="DatabaseKlassen\DBMedewerker.cs" />
+    <Compile Include="DatabaseKlassen\DBVaargebied.cs" />
     <Compile Include="Klassen\Administrator.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -59,15 +67,20 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Klassen\Artikel.cs" />
+    <Compile Include="Klassen\Motorboot.cs" />
+    <Compile Include="Klassen\Zeilboot.cs" />
+    <Compile Include="Klassen\Kano.cs" />
     <Compile Include="Klassen\Boot.cs" />
     <Compile Include="DatabaseKlassen\Database.cs" />
     <Compile Include="Klassen\Huurcontract.cs" />
     <Compile Include="Klassen\Klant.cs" />
     <Compile Include="Klassen\Medewerker.cs" />
-    <Compile Include="Klassen\Type.cs" />
     <Compile Include="Klassen\Vaargebied.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -77,6 +90,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

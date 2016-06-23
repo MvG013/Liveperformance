@@ -7,3 +7,6 @@ C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\o
 C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\obj\Debug\Liveperformance.csproj.GenerateResource.Cache
 C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\obj\Debug\Liveperformance.exe
 C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\obj\Debug\Liveperformance.pdb
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\bin\Debug\Oracle.DataAccess.dll
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\Marc\Documents\GitHub\Liveperformance\Liveperformance\Liveperformance\obj\Debug\Liveperformance.Form1.resources

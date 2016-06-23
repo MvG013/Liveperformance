@@ -20,5 +20,9 @@ namespace Liveperformance.Klassen
             Telefoonnummer = telefoonnummer;
             Email = email;
         }
+        public override string ToString()
+        {
+            return ID.ToString() + " " + Naam;
+        }
     }
 }

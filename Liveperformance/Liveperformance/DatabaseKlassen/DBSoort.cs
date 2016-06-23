@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 
 namespace Liveperformance.DatabaseKlassen
 {
-   public  class DBArtikel : Database
+    public class DBSoort : Database
     {
-        public List<Artikel> AlleArtikelen()
+        public string GetSoortByID(int ID)
         {
             using (OracleConnection conn = new OracleConnection(ConnectionString))
             {
@@ -21,27 +21,23 @@ namespace Liveperformance.DatabaseKlassen
                     conn.Open();
                 }
 
-                List<Artikel> Artikelen = new List<Artikel>();
-
                 OracleCommand cmd = new OracleCommand
                 {
                     Connection = conn,
                     BindByName = true,
                     CommandText =
-                        "SELECT * FROM ARTIKEL"
+                        "SELECT SOORT FROM SOORT WHERE SOORTID = :ID"
                 };
+                cmd.Parameters.Add("ID", ID);
+
                 OracleDataReader dr = cmd.ExecuteReader();
                 while (dr.Read())
                 {
-                    int id = (dr.GetInt32(0));
-                    string naam = (dr.GetString(1));
-                    decimal prijs = (dr.GetDecimal(2));
-                    string beschrijving = (dr.GetString(3));
-
-                    Artikel ToAdd = new Artikel(id, naam, prijs,beschrijving);
-                    Artikelen.Add(ToAdd);
+                    string soort = (dr.GetString(0));
+                    return soort;
                 }
-                return Artikelen;
+
+                return null;
             }
                 catch (OracleException e)
             {
